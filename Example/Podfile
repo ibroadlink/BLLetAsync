@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLLetAsync_Example' do
+  pod 'BLLetAsync', :path => '../'
+
+  target 'BLLetAsync_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
