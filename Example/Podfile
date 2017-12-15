@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/ibroadlink/BLLibSpecs.git'
+
 target 'BLLetAsync_Example' do
   pod 'BLLetAsync', :path => '../'
 
