@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLLetAsync'
-  s.version          = '0.1.1'
+  s.version          = '0.2.0'
   s.summary          = 'BLLetAsync Frameworks'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   
   s.vendored_frameworks = 'BLLetAsync/Classes/*.{framework}'
-  s.dependency   'BLLet/BLLetCore', '~> 0.8.1'
+  s.dependency   'BLLet/BLLetCore', '~> 2.2.2'
+  s.dependency   'BLLet/BLLetBase', '~> 2.2.2'
 
   # s.resource_bundles = {
   #   'BLLetAsync' => ['BLLetAsync/Assets/*.png']
