@@ -87,5 +87,28 @@
  @param callback callback
  */
 + (void)iRService:(NSString *)action params:(NSString *)params callback:(BLLetAsyncRequestCallback)callback;
-
+/**
+ scene Service
+ 
+ @param action action
+ @param params params
+ @param callback callback
+ */
++ (void)sceneService:(NSString *)action params:(NSString *)params callback:(BLLetAsyncRequestCallback)callback;
+/**
+ timer Service
+ 
+ @param action action
+ @param params params
+ @param callback callback
+ */
++ (void)timerService:(NSString *)action params:(NSString *)params callback:(BLLetAsyncRequestCallback)callback;
+/**
+ smart Service
+ 
+ @param action action
+ @param params params
+ @param callback callback
+ */
++ (void)smartServiceManagement:(NSString *)action params:(NSString *)params callback:(BLLetAsyncRequestCallback)callback;
 @end
